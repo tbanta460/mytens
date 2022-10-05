@@ -1,25 +1,15 @@
-export const setSearchValue = (formType, formValue) => {
+export const setDataUser = (formType, formValue) => {
 	return {
-		type: "SET_FORM_SEARCH", formType, formValue
+		type: "SET_DATA_USER", formType, formValue
 	}
 }
-export const setDataSearch = (formType, formValue) => {
+export const setDataRepos = (formType, formValue) => {
 	return {
-		type: "SET_DATA_SEARCH", formType, formValue
+		type: "SET_DATA_REPOS", formType, formValue
 	}
 }
-export const setDataDetailsMovie = (formType, formValue) => {
+export const setValueInput = (formType, formValue) => {
 	return {
-		type: "SET_DATA_DETAILS_MOVIE", formType, formValue
-	}
-}
-export const setMainData = (formType, formValue) => {
-	return {
-		type: "SET_DATA", formType, formValue
-	}
-}
-export const setLoadingData = (formType, formValue) => {
-	return {
-		type: "SET_LOADING", formType, formValue
+		type: "SET_VALUE_INPUT", formType, formValue
 	}
 }
